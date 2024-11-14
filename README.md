@@ -37,3 +37,25 @@ Pour installer le projet, suivez ces étapes :
    Detection with MQTT
    python detect_and_publish.py  # Test with MQTT
 
+5. MQTT Setup :
+
+   ```bash
+
+
+   Install Mosquitto
+         (https://mosquitto.org/download/)
+   Start Mosquitto Broker
+      Open Command Prompt as Administrator:
+      cd "C:\Program Files\mosquitto"
+      net start mosquitto
+      Test MQTT Publisher
+      In the same or another Command Prompt window:
+      mosquitto_pub -t "test/topic" -m "Hello MQTT"  # To test if Mosquitto is active
+      Test MQTT Subscriber
+      In another Command Prompt window:
+      mosquitto_sub -t "test/topic"
+
+   pour connecter broker
+   mqtt.js 
+
+
