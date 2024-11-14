@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['secure person', 'unsecured person']
+
+roboflow:
+  workspace: dtection-personnes-chantier
+  project: securing-persons
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/dtection-personnes-chantier/securing-persons/dataset/1
